@@ -18,19 +18,13 @@ namespace WikiTests.Specs
             ScenarioContext.Current.Pending();
         }
 
-        [When(@"I search ""(.*)""")]
+        [When(@"I search taco")]
         public void WhenISearchTaco()
         {
             ScenarioContext.Current.Pending();
         }
 
-        [Then(@"the correct information page loads")]
-        public void ThenTheCorrectInformationPageLoads()
-        {
-            ScenarioContext.Current.Pending();
-        } 
-
-        [Then(@"the ""(.*)"" information page loads")]
+        [Then(@"the Taco information page loads")]
         public void ThenTheTacoInformationPageLoads()
         {
             ScenarioContext.Current.Pending();

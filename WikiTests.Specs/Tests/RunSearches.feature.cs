@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace WikiTests.Specs
+namespace WikiTests.Specs.Tests
 {
     using TechTalk.SpecFlow;
     
@@ -77,7 +77,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 7
  testRunner.When("I search \"honey badger\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 8
- testRunner.Then("the correct information page loads", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the \"Honey Badger\" information page loads", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

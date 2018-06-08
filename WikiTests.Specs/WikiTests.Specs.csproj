@@ -65,18 +65,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RunSearches.feature.cs">
+    <Compile Include="Page Objects\HomePage.cs" />
+    <Compile Include="Tests\RunSearches.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>RunSearches.feature</DependentUpon>
     </Compile>
-    <Compile Include="RunSearchesSteps.cs" />
+    <Compile Include="Tests\RunSearchesSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="RunSearches.feature">
+    <None Include="Tests\RunSearches.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>RunSearches.feature.cs</LastGenOutput>
     </None>
